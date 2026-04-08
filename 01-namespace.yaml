@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: namespace
-  metadata:
-    namespace: roboshop
-    name:roboshop
-    labels:
-      project: roboshop
-      environment: dev
+metadata:
+  namespace: roboshop
+  name:roboshop
+  labels:
+    project: roboshop
+    environment: dev
