@@ -1,9 +1,9 @@
 appVersion: v1
-kind: pod
-  metadata:
-    name: nginx
-    labels:
-      purpose: demo
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+  purpose: demo
 spec:
  containers:
  - name: nginx
