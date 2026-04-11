@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: configMap
+metadata:
+  name: pod-config
+  labels:
+    purpose: config
+    env: dev
+data:
+  COURSE: "Devops with aws"
+  DURATION: "120hrs"
+  TRAINER: "Miahsa"
